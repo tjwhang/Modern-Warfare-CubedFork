@@ -44,12 +44,12 @@ public class G43GewehrFactory {
         .withInaccuracy(1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Semi-Automatic Rifle",
-        "Damage: 13.5", 
-        "Cartridge: 7.92x57mm",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 25/100",
-        "Magazines:",
+        "분류: 반자동 소총",
+        "피해: 13.5", 
+        "사용 탄종: 7.92x57mm",
+        "조정간: SEMI",
+        "발사 속도: 25/100",
+        "급탄:",
         "10rnd 7.92x57mm Gewehr Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 

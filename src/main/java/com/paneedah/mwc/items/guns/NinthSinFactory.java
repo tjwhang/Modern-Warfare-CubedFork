@@ -47,11 +47,11 @@ public class NinthSinFactory implements GunFactory {
         .withPellets(3)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Vacuum Combat Sidearm", 
-        "Damage: 4", 
-        "Cartridge: Unknown",
-        "Fire Rate: AUTO",
-        "Rate of Fire: 9999",
+        "분류: Vacuum Combat Sidearm", 
+        "피해: 4", 
+        "사용 탄종: Unknown",
+        "조정간: AUTO",
+        "발사 속도: 9999",
         "Mode of Fire: 3 shots per trigger-pull",
         "Ammunition Intake:",
         "XI-57809 VCS Battery"))

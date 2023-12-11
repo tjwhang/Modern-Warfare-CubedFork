@@ -73,12 +73,12 @@ public class MAC10Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Machine Pistol / Submachine Gun",
-        "Damage: 5.3", 
-        "Cartridge: .45 ACP",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 99/100",
-        "Magazines:",
+        "분류: Machine 권총 / Submachine Gun",
+        "피해: 5.3", 
+        "사용 탄종: .45 ACP",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 99/100",
+        "급탄:",
         "30rnd .45 ACP Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 

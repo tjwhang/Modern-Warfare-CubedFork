@@ -46,12 +46,12 @@ public class M1928ThompsonFactory {
         .withInaccuracy(2f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Sub Machine Gun",
-        "Damage: 5.3", 
-        "Cartridge: .45 ACP",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 75/100",
-        "Magazines:",
+        "분류: Sub Machine Gun",
+        "피해: 5.3", 
+        "사용 탄종: .45 ACP",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 75/100",
+        "급탄:",
         "30rnd .45 ACP Magazine (M1A1)",
         "50rnd .45 ACP Magazine (M1928)"))
          

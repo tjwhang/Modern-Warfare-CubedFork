@@ -53,7 +53,7 @@ public class ACRFactory implements GunFactory {
         .withFlashOffsetX(() -> 0.14f) // Flash offset X
         .withFlashOffsetY(() -> 0.16f) // Flash offset Y
 		.withCreativeTab(MWC.WEAPONS_TAB) // Creative tab
-		.useNewSystem() // Use new system
+		.useNewSystem() // Use new 체계
 		.withRecoilParam(new RecoilParam( // Recoil param
 				// The weapon power
 				15.0,
@@ -73,12 +73,12 @@ public class ACRFactory implements GunFactory {
 				1.0
 		))
 		.withInformationProvider(stack -> Arrays.asList( // Information provider
-        "Type: Modular Assault Rifle", // Information
-        "Damage: 6", // Damage in Item Description
-        "Cartridge: 5.56x45mm NATO", // Cartridge in Item Description
-        "Fire Rate: SEMI, BURST, AUTO", // Fire Rate in Item Description
-        "Rate of Fire: 65/100",// Rate of Fire in Item Description
-        "Magazines:", // Magazines in Item Description
+        "분류: 모듈형 돌격 소총", // Information
+        "피해: 13", // Damage in Item Description
+        "사용 탄종: 5.56x45mm NATO", // Cartridge in Item Description
+        "조정간: SEMI, BURST, AUTO", // Fire Rate in Item Description
+        "발사 속도: 65/100",// Rate of Fire in Item Description
+        "급탄:", // Magazines in Item Description
         "30rnd 5.56x45mm NATO STANAG Magazine",  // Magazines Tyoes in Item Description
         "30rnd 5.56x45mm NATO PMAG Magazine",
         "50rnd 5.56x45mm NATO STANAG Drum Magazine",
@@ -1084,7 +1084,7 @@ public class ACRFactory implements GunFactory {
                   }, 250, 0))
 					
 			.build())
-		.withSpawnEntityDamage(6f)
+		.withSpawnEntityDamage(13f)
 		.withSpawnEntityGravityVelocity(0.0118f)
 
 

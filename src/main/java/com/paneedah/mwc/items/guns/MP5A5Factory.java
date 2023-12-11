@@ -72,12 +72,12 @@ public class MP5A5Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Sub Machine Gun",
-        "Damage: 5", 
-        "Cartridge: 9x19mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 80/100",
-        "Magazines:",
+        "분류: Sub Machine Gun",
+        "피해: 5", 
+        "사용 탄종: 9x19mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 80/100",
+        "급탄:",
         "30rnd 9x19mm HK Magazine",
         "50rnd 9x19mm HK Drum Magazine"))
          

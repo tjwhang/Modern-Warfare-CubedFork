@@ -59,12 +59,12 @@ public class Remington870Factory implements GunFactory {
         
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Shotgun",
-        "Damage per Pellet: 6",
+        "분류: 산탄총",
+        "피해 per Pellet: 6",
         "Pellets per Shot: 10", 
-        "Cartridge: 12 Gauge Shotgun Shell",
-        "Fire Rate: PUMP ACTION",
-        "Rate of Fire: 10/100",
+        "사용 탄종: 12 Gauge 산탄총 Shell",
+        "조정간: PUMP ACTION",
+        "발사 속도: 10/100",
         "Inaccuracy Rating: Moderate"))
         .withUnremovableAttachmentCategories(AttachmentCategory.GUARD)
         .withUnremovableAttachmentCategories(AttachmentCategory.STOCK)

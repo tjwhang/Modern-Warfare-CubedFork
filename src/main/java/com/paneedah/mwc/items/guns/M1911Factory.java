@@ -47,12 +47,12 @@ public class M1911Factory implements GunFactory {
         .withInaccuracy(3)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Semi-Automatic Pistol", 
-        "Damage: 5.3", 
-        "Cartridge: .45 ACP",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 50/100",
-        "Magazines:",
+        "분류: 반자동 권총",
+        "피해: 5.3", 
+        "사용 탄종: .45 ACP",
+        "조정간: SEMI",
+        "발사 속도: 50/100",
+        "급탄:",
         "7rnd .45 ACP Magazine",
         "14rnd .45 ACP Magazine",
         "7rnd .44 1911 Magazine (with .44 Mag conversion kit)"))

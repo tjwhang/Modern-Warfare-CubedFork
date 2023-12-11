@@ -71,12 +71,12 @@ public class M16A4Factory implements GunFactory {
 				1.0
 		))
 		.withInformationProvider(stack -> Arrays.asList(
-		"Type: Assault Rifle", 
-		"Damage: 6", 
-		"Cartridge: 5.56x45mm NATO",
-		"Fire Rate: SEMI, BURST",
-		"Rate of Fire: 80/100",
-		"Magazines:",
+		"분류: 돌격 소총", 
+		"피해: 6", 
+		"사용 탄종: 5.56x45mm NATO",
+		"조정간: SEMI, BURST",
+		"발사 속도: 80/100",
+		"급탄:",
         "30rnd 5.56x45mm NATO STANAG Magazine",
         "30rnd 5.56x45mm NATO PMAG Magazine",
         "50rnd 5.56x45mm NATO STANAG Drum Magazine",

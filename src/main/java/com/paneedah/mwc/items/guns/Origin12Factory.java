@@ -72,14 +72,14 @@ public class Origin12Factory {
         		1.0
         ))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Semi-Automatic Tactical Shotgun",
-        "Damage per Pellet: 6",
+        "분류: 반자동 Tactical 산탄총",
+        "피해 per Pellet: 6",
         "Pellets per Shot: 10", 
-        "Cartridge: 12 Gauge",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 30/100",
+        "사용 탄종: 12 Gauge",
+        "조정간: SEMI",
+        "발사 속도: 30/100",
         "Inaccuracy Rating: Moderately High",
-        "Magazines:",
+        "급탄:",
         "5rnd 12 Gauge Origin Magazine",
         "20rnd 12 Gauge Drum Magazine"))
         

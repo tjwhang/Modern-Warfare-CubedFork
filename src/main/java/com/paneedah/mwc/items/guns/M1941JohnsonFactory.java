@@ -46,12 +46,12 @@ public class M1941JohnsonFactory {
         .withShellCasingVerticalOffset(-0.1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Light Machine Gun",
-        "Damage: 15", 
-        "Cartridge: .30-06 Springfield",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 50/100",
-        "Magazines:",
+        "분류: Light Machine Gun",
+        "피해: 15", 
+        "사용 탄종: .30-06 Springfield",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 50/100",
+        "급탄:",
         "20rnd .30-06 Springfield Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 

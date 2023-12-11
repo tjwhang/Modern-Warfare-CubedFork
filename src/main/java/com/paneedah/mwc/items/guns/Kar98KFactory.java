@@ -52,11 +52,11 @@ public class Kar98KFactory implements GunFactory {
         .withShellCasingEjectEnabled(false)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Bolt-action rifle",
-        "Damage: 13.5",
-        "Cartridge: 7.92x57mm", 
-        "Fire Rate: Bolt Action",
-        "Rate of Fire: 16/100"))
+        "분류: Bolt-action 소총",
+        "피해: 13.5",
+        "사용 탄종: 7.92x57mm", 
+        "조정간: Bolt Action",
+        "발사 속도: 16/100"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
                 3f, // x 

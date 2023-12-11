@@ -46,11 +46,11 @@ public class M1GarandFactory implements GunFactory {
         .withShellCasingVerticalOffset(-0.03f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Semi-Automatic Rifle", 
-        "Damage: 15", 
-        "Cartridge: .30-06 Springfield Bullet",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 20/100"))
+        "분류: 반자동 소총", 
+        "피해: 15", 
+        "사용 탄종: .30-06 Springfield Bullet",
+        "조정간: SEMI",
+        "발사 속도: 20/100"))
          
          .withScreenShaking(RenderableState.SHOOTING, 
                  3f, // x 

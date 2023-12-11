@@ -51,12 +51,12 @@ public class BrowningHiPowerFactory implements GunFactory {
         .withInaccuracy(3)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Single Action Semi-Automatic Pistol", 
-        "Damage: 5", 
-        "Cartridge: 9x19mm",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 65/100",
-        "Magazines:",
+        "분류: Single Action 반자동 권총",
+        "피해: 5",
+        "사용 탄종: 9x19mm",
+        "조정간: SEMI",
+        "발사 속도: 65/100",
+        "급탄:",
         "13rnd 9x19mm Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 

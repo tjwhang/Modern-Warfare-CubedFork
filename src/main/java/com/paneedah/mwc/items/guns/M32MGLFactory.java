@@ -54,8 +54,8 @@ public class M32MGLFactory implements GunFactory {
                 2f) // z
         
         .withCreativeTab(MWC.WEAPONS_TAB)
-        .withInformationProvider(stack -> Arrays.asList("Type: Multiple Grenade Launcher", 
-        "Cartridge: 40mm Grenade", "Fire Rate: Semi"))
+        .withInformationProvider(stack -> Arrays.asList("분류: Multiple Grenade Launcher", 
+        "사용 탄종: 40mm Grenade", "조정간: Semi"))
         .withCompatibleAttachment(Bullets.Grenade40mm, (model) -> {})
         .withCompatibleAttachment(Attachments.Placeholder, true, (model) -> {
             GL11.glTranslatef(0.01f, -0.19f, -0.4f);

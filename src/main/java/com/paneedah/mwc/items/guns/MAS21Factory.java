@@ -45,12 +45,12 @@ public class MAS21Factory implements GunFactory {
         .withInaccuracy(3)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Experimental Handgun", 
-        "Damage: 5.5", 
-        "Cartridge: 9x19mm",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 50/100",
-        "Magazines:",
+        "분류: Experimental Handgun", 
+        "피해: 5.5", 
+        "사용 탄종: 9x19mm",
+        "조정간: SEMI",
+        "발사 속도: 50/100",
+        "급탄:",
         "15rnd 9x19mm Magazine",
         "30rnd 9x19mm Magazine",
         "65rnd 9x19mm Drum Magazine",

@@ -73,12 +73,12 @@ public class P90Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Personal Defense Weapon",
-        "Damage: 5.5", 
-        "Cartridge: 5.7x28mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 80/100",
-        "Magazines:",
+        "분류: 개인 방어 화기",
+        "피해: 5.5", 
+        "사용 탄종: 5.7x28mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 80/100",
+        "급탄:",
         "50rnd 5.7x28mm Magazine",
         "65rnd 5.7x28mm Terminator Magazine (w/ Terminator conversion kit)"))
          

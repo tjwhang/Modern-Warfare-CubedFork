@@ -70,12 +70,12 @@ public class Beowulf50CalFactory implements GunFactory {
         		1.0
         ))
 		.withInformationProvider(stack -> Arrays.asList(
-		"Type: .50 Beowulf Rifle", 
-		"Damage: 7",
-		"Cartridge: .50 Beowulf",
-		"Fire Rate: SEMI",
-		"Rate of Fire: 30/100",
-		"Magazines:",
+		"분류: .50 Beowulf 소총", 
+		"피해: 7",
+		"사용 탄종: .50 Beowulf",
+		"조정간: SEMI",
+		"발사 속도: 30/100",
+		"급탄:",
         "10rnd .50 Beowulf Magazine"))
 		
 		.withModernRecipe( new

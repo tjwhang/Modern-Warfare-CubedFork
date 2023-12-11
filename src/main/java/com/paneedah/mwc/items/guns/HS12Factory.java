@@ -52,12 +52,12 @@ public class HS12Factory implements GunFactory {
          
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Double-Barrel Shotgun",
-        "Damage per Pellet: 6",
+        "분류: Double-Barrel 산탄총",
+        "피해 per Pellet: 6",
         "Pellets per Shot: 10", 
-        "Cartridge: 12 Gauge Shotgun Shell",
-        "Fire Rate: SEMI ACTION",
-        "Rate of Fire: 30/100"))
+        "사용 탄종: 12 Gauge 산탄총 Shell",
+        "조정간: SEMI ACTION",
+        "발사 속도: 30/100"))
         .withUnremovableAttachmentCategories(AttachmentCategory.RAILING)
         .withCompatibleAttachment(Attachments.Placeholder, true, (model) -> {
             GL11.glTranslatef(0.01f, -0.19f, -0.4f);

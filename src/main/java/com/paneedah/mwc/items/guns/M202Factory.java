@@ -50,8 +50,8 @@ public class M202Factory implements GunFactory {
                 8f) // z
         
         .withUnremovableAttachmentCategories(AttachmentCategory.SCOPE)
-        .withInformationProvider(stack -> Arrays.asList("Type: Rocket Launcher", 
-                "Cartridge: M202 Rocket", "Fire Rate: Semi"))
+        .withInformationProvider(stack -> Arrays.asList("분류: Rocket Launcher", 
+                "사용 탄종: M202 Rocket", "조정간: Semi"))
         .withCompatibleAttachment(Bullets.M202Rocket, (model) -> {})
         .withCompatibleAttachment(AuxiliaryAttachments.M202rockets, true, (model) -> {
         })

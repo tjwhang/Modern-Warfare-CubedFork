@@ -21,7 +21,7 @@ public class M1941JohnsonRifleFactory {
     public Item createGun(CommonProxy commonProxy) {
         return new Weapon.Builder()
 
-        .withName("m1941_johnson_rifle")
+        .withName("m1941_johnson_소총")
         .withAmmoCapacity(10)
         .withFireRate(0.5f)
         .withRecoil(2.5f)
@@ -47,12 +47,12 @@ public class M1941JohnsonRifleFactory {
         .withShellCasingVerticalOffset(-0.1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Semi-Automatic Rifle",
-        "Damage: 15", 
-        "Cartridge: .30-06 Springfield",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 50/100",
-        "Cartridge:",
+        "분류: 반자동 소총",
+        "피해: 15", 
+        "사용 탄종: .30-06 Springfield",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 50/100",
+        "사용 탄종:",
         ".30-06 Springfield"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
@@ -116,7 +116,7 @@ public class M1941JohnsonRifleFactory {
             GL11.glTranslatef(-0.04F, -0.1F, 2.2F);
             GL11.glScaled(0.4F, 0.4F, 0.4F);
         })
-        .withTextureNames("johnsonrifle") 
+        .withTextureNames("johnson소총") 
         .withRenderer(new WeaponRenderer.Builder()
 
             .withModel(new JohnsonRifle())

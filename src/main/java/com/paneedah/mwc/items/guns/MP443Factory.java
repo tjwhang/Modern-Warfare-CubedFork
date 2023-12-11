@@ -71,12 +71,12 @@ public class MP443Factory implements GunFactory {
         		1.0
         ))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Military Service Pistol", 
-        "Damage: 5", 
-        "Cartridge: 9x19mm",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 50/100",
-        "Magazines:",
+        "분류: Military Service 권총", 
+        "피해: 5", 
+        "사용 탄종: 9x19mm",
+        "조정간: SEMI",
+        "발사 속도: 50/100",
+        "급탄:",
         "18rnd 9x19mm 443 Magazine"))
          .withScreenShaking(RenderableState.SHOOTING, 
                  2.5f, // x 

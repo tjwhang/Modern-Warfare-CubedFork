@@ -73,12 +73,12 @@ public class AK12Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Assault Rifle",
-        "Damage: 6.3", 
-        "Cartridge: 5.45x39mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 75/100",
-        "Magazines:",
+        "분류: 돌격 소총",
+        "피해: 13",
+        "사용 탄종: 5.45x39mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 75/100",
+        "급탄:",
         "31rnd 5.45x39mm Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
@@ -798,7 +798,7 @@ public class AK12Factory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(6.3f)
+        .withSpawnEntityDamage(13f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

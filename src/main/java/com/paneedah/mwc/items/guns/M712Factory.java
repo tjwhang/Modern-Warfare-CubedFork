@@ -47,12 +47,12 @@ public class M712Factory implements GunFactory {
         .withInaccuracy(1)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Machine Pistol", 
-        "Damage: 5.4", 
-        "Cartridge: 7.63x25mm Mauser",
-        "Fire Rate: AUTO",
-        "Rate of Fire: 75/100",
-        "Magazines:",
+        "분류: Machine 권총",
+        "피해: 5.4",
+        "사용 탄종: 7.63x25mm Mauser",
+        "조정간: AUTO",
+        "발사 속도: 75/100",
+        "급탄:",
         "20rnd 7.63x25mm Mauser Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 

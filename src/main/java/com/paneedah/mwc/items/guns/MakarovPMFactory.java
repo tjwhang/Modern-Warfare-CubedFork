@@ -70,12 +70,12 @@ public class MakarovPMFactory implements GunFactory {
         		1.0
         ))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Soviet Semi-Automatic Pistol", 
-        "Damage: 4.5", 
-        "Cartridge: 9x18mm",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 30/100",
-        "Magazines:",
+        "분류: Soviet 반자동 권총",
+        "피해: 4.5",
+        "사용 탄종: 9x18mm",
+        "조정간: SEMI",
+        "발사 속도: 30/100",
+        "급탄:",
         "8rnd 9x18mm PM Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 

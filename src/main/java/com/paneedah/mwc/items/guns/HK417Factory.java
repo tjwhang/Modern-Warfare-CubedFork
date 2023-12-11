@@ -68,12 +68,12 @@ public class HK417Factory implements GunFactory {
         		1.0
         ))
 		.withInformationProvider(stack -> Arrays.asList(
-		"Type: Battle Rifle/Designated Marksmen Rifle", 
-		"Damage: 10", 
-		"Cartridge: 7.62x51mm",
-		"Fire Rate: SEMI, AUTO",
-		"Rate of Fire: 75/100",
-		"Magazines:",
+		"분류: Battle Rifle/Designated Marksmen 소총", 
+		"피해: 10", 
+		"사용 탄종: 7.62x51mm",
+		"조정간: SEMI, AUTO",
+		"발사 속도: 75/100",
+		"급탄:",
         "20rnd 7.62x51mm 417 Magazine"))
 		 
 		 .withScreenShaking(RenderableState.SHOOTING, 

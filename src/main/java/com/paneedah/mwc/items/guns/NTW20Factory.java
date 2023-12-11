@@ -49,12 +49,12 @@ public class NTW20Factory implements GunFactory {
         .withFlashOffsetY(() -> 0.13f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Anti-Materiel Sniper Rifle",
-        "Damage: 35", 
-        "Cartridge: 20x82mm",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 10/100",
-        "Magazines:",
+        "분류: 대물 저격 소총",
+        "피해: 35", 
+        "사용 탄종: 20x82mm",
+        "조정간: SEMI",
+        "발사 속도: 10/100",
+        "급탄:",
         "3rnd 20x82mm Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 

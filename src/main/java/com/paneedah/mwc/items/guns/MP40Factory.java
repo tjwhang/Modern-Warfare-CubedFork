@@ -47,12 +47,12 @@ public class MP40Factory {
         .withInaccuracy(2f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Sub Machine Gun",
-        "Damage: 5", 
-        "Cartridge: 9x19mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 50/100",
-        "Magazines:",
+        "분류: Sub Machine Gun",
+        "피해: 5", 
+        "사용 탄종: 9x19mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 50/100",
+        "급탄:",
         "32rnd 9x19mm MP Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 

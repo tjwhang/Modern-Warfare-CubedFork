@@ -51,7 +51,7 @@ public class AACHoneyBadgerFactory implements GunFactory {
                 .withShellCasingForwardOffset(0.1f) // Shell casing forward offset
                 .withShellCasingVerticalOffset(-0.05f) // Shell casing vertical offset
                 .withCreativeTab(MWC.WEAPONS_TAB) // Creative tab
-                .useNewSystem() // Use new system
+                .useNewSystem() // Use new 체계
                 .withRecoilParam(new RecoilParam( // Recoil param
                         // The weapon power
                         15.0,
@@ -71,12 +71,12 @@ public class AACHoneyBadgerFactory implements GunFactory {
                         1.0
                 ))
                 .withInformationProvider(stack -> Arrays.asList( // Information provider
-                        "Type: Personal Defense Weapon",  // Information
-                        "Damage: 5.4", // Damage in Item Description
-                        "Cartridge: 7.62x35mm", // Cartridge in Item Description
-                        "Fire Rate: SEMI, AUTO", // Fire Rate in Item Description
-                        "Rate of Fire: 70/100", // Rate of Fire in Item Description
-                        "Magazines:", // Magazines in Item Description
+                        "분류: 개인 방어 화기",  // Information
+                        "피해: 11", // Damage in Item Description
+                        "사용 탄종: 7.62x35mm", // Cartridge in Item Description
+                        "조정간: SEMI, AUTO", // Fire Rate in Item Description
+                        "발사 속도: 70/100", // Rate of Fire in Item Description
+                        "급탄:", // Magazines in Item Description
                         "30rnd 7.62x35mm Honeybadger Magazine" // Magazines Tyoes in Item Description
                 ))
 
@@ -1004,7 +1004,7 @@ public class AACHoneyBadgerFactory implements GunFactory {
                                 }, 250, 0))
 
                         .build())
-                .withSpawnEntityDamage(5.4f)
+                .withSpawnEntityDamage(11.0f)
                 .withSpawnEntityGravityVelocity(0.0118f)
 
 

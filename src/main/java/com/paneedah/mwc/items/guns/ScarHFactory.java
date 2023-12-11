@@ -70,12 +70,12 @@ public class ScarHFactory implements GunFactory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Battle Rifle", 
-        "Damage: 8", 
-        "Cartridge: 7.62x51mm NATO",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 55/100",
-        "Magazines:",
+        "분류: Battle 소총", 
+        "피해: 8", 
+        "사용 탄종: 7.62x51mm NATO",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 55/100",
+        "급탄:",
         "20rnd 7.62x51mm NATO CQC Magazine",
         "40rnd 7.62x51mm NATO CQC Magazine",
         "60rnd 7.62x51mm NATO CQC Magazine"))

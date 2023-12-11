@@ -72,12 +72,12 @@ public class KBP9A91Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Carbine",
-        "Damage: 7", 
-        "Cartridge: 9x39mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 70/100",
-        "Magazines:",
+        "분류: Carbine",
+        "피해: 7", 
+        "사용 탄종: 9x39mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 70/100",
+        "급탄:",
         "20rnd 9x39mm KBP Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 

@@ -46,12 +46,12 @@ public class MG34Factory {
         .withInaccuracy(1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: General-Purpose Machine Gun",
-        "Damage: 13.5", 
-        "Cartridge: 7.92x57mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 75/100",
-        "Magazines:",
+        "분류: General-Purpose Machine Gun",
+        "피해: 13.5", 
+        "사용 탄종: 7.92x57mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 75/100",
+        "급탄:",
         "50rnd 7.92x57mm MG Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 

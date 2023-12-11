@@ -67,12 +67,12 @@ public class Type20Factory implements GunFactory {
 				1.0
 		))
 		.withInformationProvider(stack -> Arrays.asList(
-        "Type: Modular Assault Rifle", 
-        "Damage: 6", 
-        "Cartridge: 5.56x45mm NATO",
-        "Fire Rate: SEMI, BURST, AUTO",
-        "Rate of Fire: 65/100",
-        "Magazines:",
+        "분류: 모듈형 돌격 소총",
+        "피해: 6",
+        "사용 탄종: 5.56x45mm NATO",
+        "조정간: SEMI, BURST, AUTO",
+        "발사 속도: 65/100",
+        "급탄:",
         "30rnd 5.56x45mm NATO STANAG Magazine",
         "30rnd 5.56x45mm NATO PMAG Magazine",
         "50rnd 5.56x45mm NATO STANAG Drum Magazine",

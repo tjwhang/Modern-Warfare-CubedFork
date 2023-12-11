@@ -49,12 +49,12 @@ public class MP43EFactory implements GunFactory {
         .withFlashOffsetY(() -> 0.09f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Shotgun",
-        "Damage per Pellet: 6",
+        "분류: 산탄총",
+        "피해 per Pellet: 6",
         "Pellets per Shot: 10", 
-        "Cartridge: 12 Gauge Shotgun Shell",
-        "Fire Rate: SEMI ACTION",
-        "Rate of Fire: 30/100"))
+        "사용 탄종: 12 Gauge 산탄총 Shell",
+        "조정간: SEMI ACTION",
+        "발사 속도: 30/100"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
                 5f, // x 

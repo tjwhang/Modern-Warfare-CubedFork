@@ -58,11 +58,11 @@ public class KragJorgensenFactory implements GunFactory {
         
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Repeating Bolt-action rifle",
-        "Damage: 13.8",
-        "Cartridge: 8x58mmR", 
-        "Fire Rate: Bolt Action",
-        "Rate of Fire: 16/100"))
+        "분류: Repeating Bolt-action 소총",
+        "피해: 13.8",
+        "사용 탄종: 8x58mmR", 
+        "조정간: Bolt Action",
+        "발사 속도: 16/100"))
         .withCompatibleAttachment(AuxiliaryAttachments.KragAction1, true, (model) -> {
             if(model instanceof KragJorgensenAction1) {
 //                GL11.glTranslatef(-1.38F, -1.05F, 0.59F);

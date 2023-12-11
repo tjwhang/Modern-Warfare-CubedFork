@@ -70,12 +70,12 @@ public class UMP45Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Universal Machine Pistol",
-        "Damage: 5.3", 
-        "Cartridge: .45 ACP",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 60/100",
-        "Magazines:",
+        "분류: Universal Machine 권총",
+        "피해: 5.3", 
+        "사용 탄종: .45 ACP",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 60/100",
+        "급탄:",
         "25rnd .45 ACP HK Magazine",
         "30rnd 9x19mm HK UMP Magazine (w/ UMP-9 Receiver)"))
          

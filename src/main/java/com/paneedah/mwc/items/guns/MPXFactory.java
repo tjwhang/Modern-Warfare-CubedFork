@@ -72,12 +72,12 @@ public class MPXFactory implements GunFactory {
 				1.0
 		))
 		.withInformationProvider(stack -> Arrays.asList(
-		"Type: Submachine Gun", 
-		"Damage: 5", 
-		"Cartridge: 9x19mm",
-		"Fire Rate: SEMI, AUTO",
-		"Rate of Fire: 85/100",
-		"Magazines:",
+		"분류: Submachine Gun", 
+		"피해: 5", 
+		"사용 탄종: 9x19mm",
+		"조정간: SEMI, AUTO",
+		"발사 속도: 85/100",
+		"급탄:",
         "30rnd 9x19mm MPX Magazine"))
 		 
 		 .withScreenShaking(RenderableState.SHOOTING, 

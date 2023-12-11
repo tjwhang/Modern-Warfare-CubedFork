@@ -70,12 +70,12 @@ public class M110Factory implements GunFactory {
         ))
 //        .withRecoilParam(new RecoilParam(2, 80, 1, 1, 0))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Semi-Automatic Sniper System", 
-        "Damage: 10", 
-        "Cartridge: 7.62x51mm",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 65/100",
-        "Magazines:",
+        "분류: 반자동 저격 체계", 
+        "피해: 10", 
+        "사용 탄종: 7.62x51mm",
+        "조정간: SEMI",
+        "발사 속도: 65/100",
+        "급탄:",
         "10rnd 7.62x51mm NATO Magazine"))
         
         .withModernRecipe( new

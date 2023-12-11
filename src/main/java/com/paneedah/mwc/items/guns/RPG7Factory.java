@@ -48,8 +48,8 @@ public class RPG7Factory implements GunFactory {
                 1f, // y
                 8f) // z
         
-        .withInformationProvider(stack -> Arrays.asList("Type: Rocket Launcher", 
-        "Cartridge: RPG-7 Rocket", "Fire Rate: Semi"))
+        .withInformationProvider(stack -> Arrays.asList("분류: Rocket Launcher", 
+        "사용 탄종: RPG-7 Rocket", "조정간: Semi"))
         .withCompatibleAttachment(Bullets.RPGRocket, (model) -> {})
         .withCompatibleAttachment(AuxiliaryAttachments.RPG7rocket, true, (model) -> {
         })

@@ -68,12 +68,12 @@ public class SVDDragunovFactory {
         		1.0
         ))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Sniper Rifle",
-        "Damage: 14", 
-        "Cartridge: 7.62x54mmR",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 60/100",
-        "Magazines:",
+        "분류: 저격 소총",
+        "피해: 14", 
+        "사용 탄종: 7.62x54mmR",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 60/100",
+        "급탄:",
         "30rnd 7.62x39mm Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 

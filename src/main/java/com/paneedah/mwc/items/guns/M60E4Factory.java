@@ -44,12 +44,12 @@ public class M60E4Factory {
         .withInaccuracy(1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: General-Purpose Machine Gun",
-        "Damage: 10", 
-        "Cartridge: 7.62x51mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 60/100",
-        "Magazines:",
+        "분류: General-Purpose Machine Gun",
+        "피해: 10", 
+        "사용 탄종: 7.62x51mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 60/100",
+        "급탄:",
         "100rnd 7.62x51mm Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 

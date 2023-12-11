@@ -49,11 +49,11 @@ public class ChiappaRhinoFactory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         
         .withInformationProvider(stack -> Arrays.asList(
-                "Type: Revolver",
-                "Damage: 5.4",
-                "Cartridge: .357 Bullet", 
-                "Fire Rate: Semi",
-                "Rate of Fire: 20/100"))
+                "분류: Revolver",
+                "피해: 5.4",
+                "사용 탄종: .357 Bullet", 
+                "조정간: Semi",
+                "발사 속도: 20/100"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
                 4f, // x 

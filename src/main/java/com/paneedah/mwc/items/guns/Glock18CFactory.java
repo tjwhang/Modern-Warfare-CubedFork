@@ -72,12 +72,12 @@ public class Glock18CFactory implements GunFactory {
         		1.0
         ))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Machine Pistol", 
-        "Damage: 5", 
-        "Cartridge: 9x19mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 95/100",
-        "Magazines:",
+        "분류: Machine 권총", 
+        "피해: 5", 
+        "사용 탄종: 9x19mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 95/100",
+        "급탄:",
         "13rnd 9x19mm Glock Magazine",
         "20rnd 9x19mm Magazine",
         "50rnd 9x19mm Drum Magazine"))

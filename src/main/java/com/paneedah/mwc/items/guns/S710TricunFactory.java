@@ -67,12 +67,12 @@ public class S710TricunFactory implements GunFactory {
                         1.0
                 ))
                 .withInformationProvider(stack -> Arrays.asList(
-                        "Type: Submachine Gun",
-                        "Damage: 5.4",
-                        "Cartridge: 10mm",
-                        "Fire Rate: SEMI, AUTO",
-                        "Rate of Fire: 80/100",
-                        "Magazines:",
+                        "분류: Submachine Gun",
+                        "피해: 5.4",
+                        "사용 탄종: 10mm",
+                        "조정간: SEMI, AUTO",
+                        "발사 속도: 80/100",
+                        "급탄:",
                         "30rnd 10mm Magazine"))
 
                 .withScreenShaking(RenderableState.SHOOTING,

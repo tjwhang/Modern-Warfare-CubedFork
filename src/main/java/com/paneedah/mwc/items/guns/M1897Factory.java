@@ -62,12 +62,12 @@ public class M1897Factory implements GunFactory {
 		 
 	        .withCreativeTab(MWC.WEAPONS_TAB)
 	        .withInformationProvider(stack -> Arrays.asList(
-	        "Type: Shotgun",
-	        "Damage per Pellet: 6",
+	        "분류: 산탄총",
+	        "피해 per Pellet: 6",
 	        "Pellets per Shot: 10", 
-	        "Cartridge: 12 Gauge Shotgun Shell",
-	        "Fire Rate: PUMP ACTION",
-	        "Rate of Fire: 50/100"))
+	        "사용 탄종: 12 Gauge 산탄총 Shell",
+	        "조정간: PUMP ACTION",
+	        "발사 속도: 50/100"))
 	        .withCompatibleAttachment(AuxiliaryAttachments.Extra, true, (model) -> {
 	            if(model instanceof AKMiron1) {
 	                GL11.glTranslatef(0.125F, -1.8F, -0.5F);

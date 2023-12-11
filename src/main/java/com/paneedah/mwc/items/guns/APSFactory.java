@@ -74,12 +74,12 @@ public class APSFactory implements GunFactory {
         		1.0
         ))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Machine Pistol", 
-        "Damage: 5", 
-        "Cartridge: 9x19mm",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 75/100",
-        "Magazines:",
+        "분류: 기관 권총",
+        "피해: 9",
+        "사용 탄종: 9x19mm",
+        "조정간: SEMI",
+        "발사 속도: 75/100",
+        "급탄:",
         "20rnd 9x19mm Magazine (APS)"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
@@ -473,7 +473,7 @@ public class APSFactory implements GunFactory {
                     }, 250, 0))
                           
             .build())
-        .withSpawnEntityDamage(5f)
+        .withSpawnEntityDamage(9f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          

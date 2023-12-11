@@ -69,12 +69,12 @@ public class FamasF1Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Bullpup Assault Rifle",
-        "Damage: 6", 
-        "Cartridge: 5.56x45mm NATO",
-        "Fire Rate: SEMI, BURST",
-        "Rate of Fire: 60/100",
-        "Magazines:",
+        "분류: Bullpup Assault 소총",
+        "피해: 6", 
+        "사용 탄종: 5.56x45mm NATO",
+        "조정간: SEMI, BURST",
+        "발사 속도: 60/100",
+        "급탄:",
         "20rnd 7.62x51mm Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 

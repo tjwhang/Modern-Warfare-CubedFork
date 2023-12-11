@@ -72,12 +72,12 @@ public class G36CFactory implements GunFactory {
                         1.0
                 ))
                 .withInformationProvider(stack -> Arrays.asList(
-                        "Type: Assault Rifle",
-                        "Damage: 6",
-                        "Cartridge: 5.56x45mm NATO",
-                        "Fire Rate: SEMI, AUTO",
-                        "Rate of Fire: 75/100",
-                        "Magazines:",
+                        "분류: 돌격 소총",
+                        "피해: 6",
+                        "사용 탄종: 5.56x45mm NATO",
+                        "조정간: SEMI, AUTO",
+                        "발사 속도: 75/100",
+                        "급탄:",
                         "30rnd 5.56x45mm NATO HK Magazine",
                         "100rnd 5.56x45mm NATO STANAG Drum Magazine"))
                 .withCrafting(CraftingComplexity.MEDIUM,

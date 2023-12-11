@@ -71,12 +71,12 @@ public class MalyukFactory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Bullpup Assault rifle",
-        "Damage: 6.6", 
-        "Cartridge: 7.62x39mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 60/100",
-        "Magazines:",
+        "분류: Bullpup Assault 소총",
+        "피해: 6.6", 
+        "사용 탄종: 7.62x39mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 60/100",
+        "급탄:",
         "30rnd 7.62x39mm Magazine",
         "30rnd 7.62x39mm PMAG Magazine",
         "30rnd 7.62x39mm PMAG Magazine (Tan)",

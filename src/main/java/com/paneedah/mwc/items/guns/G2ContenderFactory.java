@@ -45,11 +45,11 @@ public class G2ContenderFactory implements GunFactory {
         
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Break-Action",
-        "Damage: 6.5", 
-        "Cartridge: .45-70 Government",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 30/100"))
+        "분류: Break-Action",
+        "피해: 6.5", 
+        "사용 탄종: .45-70 Government",
+        "조정간: SEMI",
+        "발사 속도: 30/100"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
                 3f, // x 

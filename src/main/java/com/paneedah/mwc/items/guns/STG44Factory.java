@@ -45,12 +45,12 @@ public class STG44Factory {
         .withInaccuracy(1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Assault rifle",
-        "Damage: 7.7", 
-        "Cartridge: 7.92x33mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 60/100",
-        "Magazines:",
+        "분류: 돌격 소총",
+        "피해: 7.7", 
+        "사용 탄종: 7.92x33mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 60/100",
+        "급탄:",
         "30rnd 7.92x33mm Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 

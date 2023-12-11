@@ -46,12 +46,12 @@ public class StonerA1Factory {
         .withFlashOffsetY(() -> 0.15f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Light Machine Gun",
-        "Damage: 6", 
-        "Cartridge: 5.56x45mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 75/100",
-        "Magazines:",
+        "분류: Light Machine Gun",
+        "피해: 6", 
+        "사용 탄종: 5.56x45mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 75/100",
+        "급탄:",
         "100rnd 5.56x45mm Stoner Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 

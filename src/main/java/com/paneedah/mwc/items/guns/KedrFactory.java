@@ -47,12 +47,12 @@ public class KedrFactory {
         .withInaccuracy(2f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Submachine Gun",
-        "Damage: 5", 
-        "Cartridge: 9x19mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 70/100",
-        "Magazines:",
+        "분류: Submachine Gun",
+        "피해: 5", 
+        "사용 탄종: 9x19mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 70/100",
+        "급탄:",
         "20rnd 9x19mm Magazine (Kedr)"))
         
         .withScreenShaking(RenderableState.SHOOTING, 

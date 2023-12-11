@@ -58,11 +58,11 @@ public class SpringfieldFactory implements GunFactory {
          
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Bolt-action rifle",
-        "Damage: 15",
-        "Cartridge: .30-06 Springfield Bullet", 
-        "Fire Rate: Bolt Action",
-        "Rate of Fire: 16/100"))
+        "분류: Bolt-action 소총",
+        "피해: 15",
+        "사용 탄종: .30-06 Springfield Bullet", 
+        "조정간: Bolt Action",
+        "발사 속도: 16/100"))
         .withCompatibleAttachment(AuxiliaryAttachments.SpringfieldAction, true, (model) -> {
             if(model instanceof SpringfieldAction) {
 //                GL11.glTranslatef(-1.38F, -1.05F, 0.5F);

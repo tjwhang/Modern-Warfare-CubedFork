@@ -47,8 +47,8 @@ public class M79Factory implements GunFactory {
                 3f, // y
                 2f) // z
         
-        .withInformationProvider(stack -> Arrays.asList("Type: Grenade Launcher", "Damage: 70", 
-        "Cartridge: 40mm Grenade", "Fire Rate: Semi"))
+        .withInformationProvider(stack -> Arrays.asList("분류: Grenade Launcher", "피해: 70", 
+        "사용 탄종: 40mm Grenade", "조정간: Semi"))
         .withCompatibleAttachment(Bullets.Grenade40mm, (model) -> {})
         
         .withCompatibleAttachment(AuxiliaryAttachments.M79grenade, true, (model) -> {

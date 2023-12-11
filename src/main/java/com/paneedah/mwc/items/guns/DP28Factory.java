@@ -46,12 +46,12 @@ public class DP28Factory {
         .withShellCasingEjectEnabled(false)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Light Machine Gun",
-        "Damage: 14", 
-        "Cartridge: 7.62x54mmR",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 50/100",
-        "Magazines:",
+        "분류: Light Machine Gun",
+        "피해: 14",
+        "사용 탄종: 7.62x54mmR",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 50/100",
+        "급탄:",
         "47rnd 7.62x54mmR Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 

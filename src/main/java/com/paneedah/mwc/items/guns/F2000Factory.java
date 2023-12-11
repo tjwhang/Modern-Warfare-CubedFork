@@ -71,12 +71,12 @@ public class F2000Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Assault Rifle",
-        "Damage: 6", 
-        "Cartridge: 5.56x45mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 85/100",
-        "Magazines:",
+        "분류: 돌격 소총",
+        "피해: 6", 
+        "사용 탄종: 5.56x45mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 85/100",
+        "급탄:",
         "30rnd 5.56x45mm NATO STANAG Magazine",
         "30rnd 5.56x45mm NATO PMAG Magazine",
         "50rnd 5.56x45mm NATO STANAG Drum Magazine",

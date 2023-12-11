@@ -49,11 +49,11 @@ public class SW500MagnumFactory implements GunFactory {
         .withShellCasingEjectEnabled(false)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-                "Type: Revolver",
-                "Damage: 7",
-                "Cartridge: .500 Magnum Bullet", 
-                "Fire Rate: Semi",
-                "Rate of Fire: 20/100"))
+                "분류: Revolver",
+                "피해: 7",
+                "사용 탄종: .500 Magnum Bullet", 
+                "조정간: Semi",
+                "발사 속도: 20/100"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
                 8f, // x 

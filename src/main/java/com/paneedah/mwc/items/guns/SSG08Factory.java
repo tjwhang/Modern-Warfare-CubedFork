@@ -46,12 +46,12 @@ public class SSG08Factory implements GunFactory {
         .withShellCasingEjectEnabled(false)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Precision Sniper Rifle",
-        "Damage: 27", 
-        "Cartridge: .308 Winchester",
-        "Fire Rate: BOLT ACTION",
-        "Rate of Fire: 16/100",
-        "Magazines:",
+        "분류: Precision 저격 소총",
+        "피해: 27", 
+        "사용 탄종: .308 Winchester",
+        "조정간: BOLT ACTION",
+        "발사 속도: 16/100",
+        "급탄:",
         "8rnd .308 Winchester Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 

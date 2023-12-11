@@ -48,12 +48,12 @@ public class M200InterventionFactory implements GunFactory {
         .withShellCasingEjectEnabled(false)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Sniper Rifle",
-        "Damage: 20", 
-        "Cartridge: .408 Cheyenne Tactical",
-        "Fire Rate: BOLT ACTION",
-        "Rate of Fire: 16/100",
-        "Magazines:",
+        "분류: 저격 소총",
+        "피해: 20", 
+        "사용 탄종: .408 Cheyenne Tactical",
+        "조정간: BOLT ACTION",
+        "발사 속도: 16/100",
+        "급탄:",
         "7rnd .408 CT Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 

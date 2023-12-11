@@ -52,11 +52,11 @@ public class MaresLegFactory implements GunFactory {
         .withFlashOffsetY(() -> 0.13f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Lever Action Rifle",
-        "Damage: 5.5",
-        "Cartridge: .44 Magnum",
-        "Fire Rate: LEVER ACTION",
-        "Rate of Fire: 50/100"))
+        "분류: Lever Action 소총",
+        "피해: 5.5",
+        "사용 탄종: .44 Magnum",
+        "조정간: LEVER ACTION",
+        "발사 속도: 50/100"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
                 4f, // x 

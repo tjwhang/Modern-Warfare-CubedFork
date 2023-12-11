@@ -57,13 +57,13 @@ public class Saiga12Factory {
          
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Carbine/Shotgun",
-        "Damage per Pellet: 6",
+        "분류: Carbine/Shotgun",
+        "피해 per Pellet: 6",
         "Pellets per Shot: 10", 
-        "Cartridge: 12 Gauge Shotgun Shell",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 40/100",
-        "Magazines:",
+        "사용 탄종: 12 Gauge 산탄총 Shell",
+        "조정간: SEMI",
+        "발사 속도: 40/100",
+        "급탄:",
         "5rnd 12G Magazine"))
         .withCompatibleAttachment(AuxiliaryAttachments.Saiga12action, true, (model) -> {
         })

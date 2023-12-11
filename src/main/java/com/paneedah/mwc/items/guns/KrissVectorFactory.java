@@ -70,12 +70,12 @@ public class KrissVectorFactory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Submachine Gun",
-        "Damage: 5.3", 
-        "Cartridge: .45 ACP",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 99/100",
-        "Magazines:",
+        "분류: Submachine Gun",
+        "피해: 5.3", 
+        "사용 탄종: .45 ACP",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 99/100",
+        "급탄:",
         "25rnd .45 ACP Vector Magazine",
         "30rnd 5.56x45mm NATO STANAG Magazine (w/ Vector 5.56 Handguard)",
         "30rnd 5.56x45mm NATO PMAG Magazine (w/ Vector 5.56 Handguard)",

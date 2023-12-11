@@ -71,12 +71,12 @@ public class M82Factory implements GunFactory {
         		1.0
         ))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Anti-Materiel Sniper Rifle",
-        "Damage: 25", 
-        "Cartridge: .50 BMG",
-        "Fire Rate: SEMI",
-        "Rate of Fire: 10/100",
-        "Magazines:",
+        "분류: 대물 저격 소총",
+        "피해: 25", 
+        "사용 탄종: .50 BMG",
+        "조정간: SEMI",
+        "발사 속도: 10/100",
+        "급탄:",
         "10rnd .50 BMG NATO Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 

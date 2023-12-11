@@ -72,12 +72,12 @@ public class AK15Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Assault rifle",
-        "Damage: 6.6", 
-        "Cartridge: 7.62x39mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 60/100",
-        "Magazines:",
+        "분류: 돌격 소총",
+        "피해: 14.8",
+        "사용 탄종: 7.62x39mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 60/100",
+        "급탄:",
         "30rnd 7.62x39mm Magazine",
         "30rnd 7.62x39mm PMAG Magazine",
         "30rnd 7.62x39mm PMAG Magazine (Tan)",
@@ -887,7 +887,7 @@ public class AK15Factory {
                         }, 300, 0))
                  
                 .build())
-            .withSpawnEntityDamage(6.6f)
+            .withSpawnEntityDamage(14.8f)
             .withSpawnEntityGravityVelocity(0.0118f)
                     
             .build(MWC.modContext);

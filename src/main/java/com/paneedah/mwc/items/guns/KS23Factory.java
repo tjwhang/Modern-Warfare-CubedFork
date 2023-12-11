@@ -55,12 +55,12 @@ public class KS23Factory implements GunFactory {
         .withFlashOffsetY(() -> 0.09f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Carbine/Shotgun",
-        "Damage per Pellet: 7.5",
+        "분류: Carbine/Shotgun",
+        "피해 per Pellet: 7.5",
         "Pellets per Shot: 10", 
-        "Cartridge: 4 Gauge Shotgun Shell",
-        "Fire Rate: PUMP ACTION",
-        "Rate of Fire: 10/100"))
+        "사용 탄종: 4 Gauge 산탄총 Shell",
+        "조정간: PUMP ACTION",
+        "발사 속도: 10/100"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
                 5f, // x 

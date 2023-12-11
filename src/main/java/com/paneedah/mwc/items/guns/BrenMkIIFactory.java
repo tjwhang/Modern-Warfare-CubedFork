@@ -44,12 +44,12 @@ public class BrenMkIIFactory {
         .withFlashOffsetY(() -> 0.1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Light Machine Gun",
-        "Damage: 10", 
-        "Cartridge: 7.62x51mm",
-        "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 50/100",
-        "Magazines:",
+        "분류: Light Machine Gun",
+        "피해: 10", 
+        "사용 탄종: 7.62x51mm",
+        "조정간: SEMI, AUTO",
+        "발사 속도: 50/100",
+        "급탄:",
         "30rnd 7.62x51mm Bren Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 

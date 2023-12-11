@@ -48,12 +48,12 @@ public class SV98Factory implements GunFactory {
         .withShellCasingEjectEnabled(false)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Sniper Rifle",
-        "Damage: 14", 
-        "Cartridge: 7.62x54mmR",
-        "Fire Rate: BOLT ACTION",
-        "Rate of Fire: 16/100",
-        "Magazines:",
+        "분류: 저격 소총",
+        "피해: 14", 
+        "사용 탄종: 7.62x54mmR",
+        "조정간: BOLT ACTION",
+        "발사 속도: 16/100",
+        "급탄:",
         "10rnd 7.62x54mmR Izhmash Magazine"))
          
          .withScreenShaking(RenderableState.SHOOTING, 
