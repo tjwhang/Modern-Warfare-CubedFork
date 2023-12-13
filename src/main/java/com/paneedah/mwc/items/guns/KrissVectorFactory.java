@@ -48,7 +48,7 @@ public class KrissVectorFactory {
         .withFlashScale(() -> 0.5f)
         .withFlashOffsetX(() -> 0.12f)
         .withFlashOffsetY(() -> 0.22f)
-        .withInaccuracy(2f)
+        .withInaccuracy(2.5f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .useNewSystem()
         .withRecoilParam(new RecoilParam(
@@ -70,8 +70,8 @@ public class KrissVectorFactory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Submachine Gun",
-        "피해: 5.3", 
+        "분류: 기관단총",
+        "피해: 9",
         "사용 탄종: .45 ACP",
         "조정간: SEMI, AUTO",
         "발사 속도: 99/100",
@@ -1073,7 +1073,7 @@ public class KrissVectorFactory {
                     }, 300, 0))
              
             .build())
-        .withSpawnEntityDamage(5.3f)
+        .withSpawnEntityDamage(9f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

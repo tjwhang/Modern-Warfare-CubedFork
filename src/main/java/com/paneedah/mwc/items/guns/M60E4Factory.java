@@ -44,8 +44,8 @@ public class M60E4Factory {
         .withInaccuracy(1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: General-Purpose Machine Gun",
-        "피해: 10", 
+        "분류: 다목적 기관총",
+        "피해: 16",
         "사용 탄종: 7.62x51mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 60/100",
@@ -5287,7 +5287,7 @@ public class M60E4Factory {
                     )
              
             .build())
-        .withSpawnEntityDamage(10f)
+        .withSpawnEntityDamage(16f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

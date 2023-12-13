@@ -46,7 +46,7 @@ public class G2ContenderFactory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: Break-Action",
-        "피해: 6.5", 
+        "피해: 15",
         "사용 탄종: .45-70 Government",
         "조정간: SEMI",
         "발사 속도: 30/100"))
@@ -1669,7 +1669,7 @@ public class G2ContenderFactory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(6.5f)
+        .withSpawnEntityDamage(15f)
         .withSpawnEntityGravityVelocity(0.8f)
         
          

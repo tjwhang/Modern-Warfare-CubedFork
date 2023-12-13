@@ -46,7 +46,7 @@ public class STG44Factory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 돌격 소총",
-        "피해: 7.7", 
+        "피해: 14",
         "사용 탄종: 7.92x33mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 60/100",
@@ -1455,7 +1455,7 @@ public class STG44Factory {
                     )
              
             .build())
-        .withSpawnEntityDamage(7.7f)
+        .withSpawnEntityDamage(14f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

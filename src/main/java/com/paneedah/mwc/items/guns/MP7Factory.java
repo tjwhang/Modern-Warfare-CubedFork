@@ -74,8 +74,8 @@ public class MP7Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Sub Machine Gun/ Personal Defense Weapon/ Machine 권총",
-        "피해: 5.5", 
+        "분류: 기관단총/ 개인 방어 화기/ 기관 권총",
+        "피해: 13",
         "사용 탄종: 4.6x30mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 80/100",
@@ -765,7 +765,7 @@ public class MP7Factory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(5.5f)
+        .withSpawnEntityDamage(13f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

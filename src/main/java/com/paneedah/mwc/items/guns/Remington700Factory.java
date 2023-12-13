@@ -49,8 +49,8 @@ public class Remington700Factory implements GunFactory {
         .withShellCasingEjectEnabled(false)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Precision 저격 소총",
-        "피해: 14", 
+        "분류: 고정확도 저격 소총",
+        "피해: 23",
         "사용 탄종: 7.62x54mm",
         "조정간: BOLT ACTION",
         "발사 속도: 16/100",
@@ -2145,8 +2145,8 @@ public class Remington700Factory implements GunFactory {
                     }, 50, 200))
                     
             .build())
-        .withSpawnEntityDamage(14f)
-        .withSpawnEntityGravityVelocity(0f)
+        .withSpawnEntityDamage(23f)
+        .withSpawnEntityGravityVelocity(0.0118f)
         
          
         .build(MWC.modContext);

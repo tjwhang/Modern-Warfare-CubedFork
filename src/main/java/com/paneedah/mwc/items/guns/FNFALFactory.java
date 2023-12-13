@@ -68,8 +68,8 @@ public class FNFALFactory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Battle 소총",
-        "피해: 10", 
+        "분류: 전투 소총",
+        "피해: 17", 
         "사용 탄종: 7.62x51mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 60/100",
@@ -807,7 +807,7 @@ public class FNFALFactory {
                    }, 300, 0))
             
            .build())
-        .withSpawnEntityDamage(10f)
+        .withSpawnEntityDamage(17f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

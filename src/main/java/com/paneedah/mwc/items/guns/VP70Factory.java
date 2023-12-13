@@ -73,8 +73,8 @@ public class VP70Factory implements GunFactory {
         		1.0
         ))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Double-Single Action 권총", 
-        "피해: 5", 
+        "분류: 더블-싱글 액션 권총",
+        "피해: 11",
         "사용 탄종: 9x19mm",
         "조정간: SEMI",
         "발사 속도: 50/100",
@@ -460,7 +460,7 @@ public class VP70Factory implements GunFactory {
                    }, 250, 0))
                          
            .build())
-        .withSpawnEntityDamage(5f)
+        .withSpawnEntityDamage(11f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          

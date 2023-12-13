@@ -72,7 +72,7 @@ public class M82Factory implements GunFactory {
         ))
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 대물 저격 소총",
-        "피해: 25", 
+        "피해: 53",
         "사용 탄종: .50 BMG",
         "조정간: SEMI",
         "발사 속도: 10/100",
@@ -729,8 +729,8 @@ public class M82Factory implements GunFactory {
                    }, 300, 0))
             
            .build())
-        .withSpawnEntityDamage(25f)
-        .withSpawnEntityGravityVelocity(0f)
+        .withSpawnEntityDamage(53f)
+        .withSpawnEntityGravityVelocity(0.0118f)
         
          
         .build(MWC.modContext);

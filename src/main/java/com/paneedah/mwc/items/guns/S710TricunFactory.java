@@ -67,8 +67,8 @@ public class S710TricunFactory implements GunFactory {
                         1.0
                 ))
                 .withInformationProvider(stack -> Arrays.asList(
-                        "분류: Submachine Gun",
-                        "피해: 5.4",
+                        "분류: 기관단총",
+                        "피해: 13",
                         "사용 탄종: 10mm",
                         "조정간: SEMI, AUTO",
                         "발사 속도: 80/100",
@@ -862,7 +862,7 @@ public class S710TricunFactory implements GunFactory {
                                 }, 250, 0))
 
                         .build())
-                .withSpawnEntityDamage(5.4f)
+                .withSpawnEntityDamage(13f)
                 .withSpawnEntityGravityVelocity(0.0118f)
 
 

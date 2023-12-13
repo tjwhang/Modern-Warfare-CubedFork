@@ -48,10 +48,10 @@ public class M134Factory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: Minigun", 
-        "피해: 10", 
+        "피해: 16",
         "사용 탄종: 7.62x51mm NATO",
         "조정간: AUTO",
-        "발사 속도: Excuse me?",
+        "발사 속도: 엄...",
         "급탄:",
         "1000rnd 7.62x51mm Box Magazine"))
          
@@ -1017,7 +1017,7 @@ public class M134Factory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(10f)
+        .withSpawnEntityDamage(16f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
          

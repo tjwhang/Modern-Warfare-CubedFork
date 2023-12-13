@@ -72,7 +72,7 @@ public class CZ805BrenFactory implements GunFactory {
                 MWCItems.gunmetalPlate)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 돌격 Rifle/Carbine",
-        "피해: 6",
+        "피해: 13",
         "사용 탄종: 5.56x45mm NATO",
         "조정간: SEMI, AUTO",
         "발사 속도: 80/100",
@@ -772,7 +772,7 @@ public class CZ805BrenFactory implements GunFactory {
                    }, 250, 0))
 					
 			.build())
-        .withSpawnEntityDamage(6f)
+        .withSpawnEntityDamage(13f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
          

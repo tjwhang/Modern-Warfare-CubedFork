@@ -72,8 +72,8 @@ public class KBP9A91Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Carbine",
-        "피해: 7", 
+        "분류: 카빈",
+        "피해: 14",
         "사용 탄종: 9x39mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 70/100",
@@ -538,7 +538,7 @@ public class KBP9A91Factory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(7f)
+        .withSpawnEntityDamage(14f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

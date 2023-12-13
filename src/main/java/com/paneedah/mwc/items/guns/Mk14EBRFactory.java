@@ -68,8 +68,8 @@ public class Mk14EBRFactory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Battle Rifle/Designated Marksmen 소총",
-        "피해: 10",
+        "분류: 전투 소총/지정 사수 소총",
+        "피해: 20",
         "사용 탄종: 7.62x51mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 75/100",
@@ -921,7 +921,7 @@ public class Mk14EBRFactory {
                   }, 300, 0))
            
           .build())
-        .withSpawnEntityDamage(10f)
+        .withSpawnEntityDamage(20f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

@@ -990,7 +990,7 @@ public class AUGFactory implements GunFactory {
                     }, 300, 0))
 
             .build())
-        .withSpawnEntityDamage(6f)
+        .withSpawnEntityDamage(13f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

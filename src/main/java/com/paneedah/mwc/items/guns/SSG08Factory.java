@@ -46,8 +46,8 @@ public class SSG08Factory implements GunFactory {
         .withShellCasingEjectEnabled(false)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Precision 저격 소총",
-        "피해: 27", 
+        "분류: 고정확도 저격 소총",
+        "피해: 32",
         "사용 탄종: .308 Winchester",
         "조정간: BOLT ACTION",
         "발사 속도: 16/100",
@@ -2325,8 +2325,8 @@ public class SSG08Factory implements GunFactory {
                     }, 50, 200))
                     
             .build())
-        .withSpawnEntityDamage(27f)
-        .withSpawnEntityGravityVelocity(0f)
+        .withSpawnEntityDamage(32f)
+        .withSpawnEntityGravityVelocity(0.0118f)
         
          
         .build(MWC.modContext);

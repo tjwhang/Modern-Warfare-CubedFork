@@ -50,7 +50,7 @@ public class NTW20Factory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 대물 저격 소총",
-        "피해: 35", 
+        "피해: 60",
         "사용 탄종: 20x82mm",
         "조정간: SEMI",
         "발사 속도: 10/100",
@@ -1746,8 +1746,8 @@ public class NTW20Factory implements GunFactory {
             
                     
             .build())
-        .withSpawnEntityDamage(35f)
-        .withSpawnEntityGravityVelocity(0f)
+        .withSpawnEntityDamage(60f)
+        .withSpawnEntityGravityVelocity(0.0118f)
         
          
         .build(MWC.modContext);

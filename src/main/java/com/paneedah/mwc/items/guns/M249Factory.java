@@ -562,7 +562,7 @@ public class M249Factory {
                  })
              
             .build())
-        .withSpawnEntityDamage(6f)
+        .withSpawnEntityDamage(13f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

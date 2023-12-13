@@ -48,7 +48,7 @@ public class M1941JohnsonRifleFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 반자동 소총",
-        "피해: 15", 
+        "피해: 20",
         "사용 탄종: .30-06 Springfield",
         "조정간: SEMI, AUTO",
         "발사 속도: 50/100",
@@ -1034,7 +1034,7 @@ public class M1941JohnsonRifleFactory {
                     )
              
             .build())
-        .withSpawnEntityDamage(15f)
+        .withSpawnEntityDamage(20f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

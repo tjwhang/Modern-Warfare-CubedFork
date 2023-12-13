@@ -70,7 +70,7 @@ public class ZbroyarZ10Factory implements GunFactory {
 //        .withRecoilParam(new RecoilParam(2, 80, 1, 1, 0))
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 반자동 저격 체계", 
-        "피해: 10", 
+        "피해: 20",
         "사용 탄종: 7.62x51mm",
         "조정간: SEMI",
         "발사 속도: 65/100",
@@ -933,7 +933,7 @@ public class ZbroyarZ10Factory implements GunFactory {
                     }, 250, 0))
                     
             .build())
-        .withSpawnEntityDamage(10f)
+        .withSpawnEntityDamage(20f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
          

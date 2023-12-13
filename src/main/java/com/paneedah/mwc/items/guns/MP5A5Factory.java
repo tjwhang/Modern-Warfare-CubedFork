@@ -72,8 +72,8 @@ public class MP5A5Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Sub Machine Gun",
-        "피해: 5", 
+        "분류: 기관단총",
+        "피해: 10",
         "사용 탄종: 9x19mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 80/100",
@@ -889,7 +889,7 @@ public class MP5A5Factory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(5f)
+        .withSpawnEntityDamage(10f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

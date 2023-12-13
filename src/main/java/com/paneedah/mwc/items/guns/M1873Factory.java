@@ -51,8 +51,8 @@ public class M1873Factory implements GunFactory {
         .withFlashOffsetY(() -> 0.06f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Lever Action 소총",
-        "피해: 5.5",
+        "분류: 레버 액션 소총",
+        "피해: 16",
         "사용 탄종: 44-40 Winchester",
         "조정간: LEVER ACTION",
         "발사 속도: 50/100"))
@@ -933,7 +933,7 @@ public class M1873Factory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(5.5f)
+        .withSpawnEntityDamage(16f)
         
          
         .build(MWC.modContext);

@@ -413,4 +413,6 @@ public abstract class EntityProjectile extends Entity implements IProjectile, IE
     public boolean canCollideWithBlock(List<BlockPos> violators, Block block, BlockPos pos, IBlockState iBlockState) {
         return block.canCollideCheck(iBlockState, false);
     }
+
+
 }

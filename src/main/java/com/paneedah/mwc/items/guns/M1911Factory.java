@@ -48,7 +48,7 @@ public class M1911Factory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 반자동 권총",
-        "피해: 5.3", 
+        "피해: 12",
         "사용 탄종: .45 ACP",
         "조정간: SEMI",
         "발사 속도: 50/100",
@@ -1648,7 +1648,7 @@ public class M1911Factory implements GunFactory {
                     )
                           
             .build())
-        .withSpawnEntityDamage(5.3f)
+        .withSpawnEntityDamage(12f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          

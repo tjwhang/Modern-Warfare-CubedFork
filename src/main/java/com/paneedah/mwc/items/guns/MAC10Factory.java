@@ -73,8 +73,8 @@ public class MAC10Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Machine 권총 / Submachine Gun",
-        "피해: 5.3", 
+        "분류: Machine 권총 / 기관단총",
+        "피해: 9",
         "사용 탄종: .45 ACP",
         "조정간: SEMI, AUTO",
         "발사 속도: 99/100",
@@ -735,7 +735,7 @@ public class MAC10Factory {
                    }, 250, 0))
                          
            .build())
-        .withSpawnEntityDamage(5.3f)
+        .withSpawnEntityDamage(9f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

@@ -70,8 +70,8 @@ public class UMP45Factory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Universal Machine 권총",
-        "피해: 5.3", 
+        "분류: 기관단총",
+        "피해: 13",
         "사용 탄종: .45 ACP",
         "조정간: SEMI, AUTO",
         "발사 속도: 60/100",
@@ -729,7 +729,7 @@ public class UMP45Factory {
                    }, 280, 0))
             
            .build())
-        .withSpawnEntityDamage(5.3f)
+        .withSpawnEntityDamage(13f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

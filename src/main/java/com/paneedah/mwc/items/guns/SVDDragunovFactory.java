@@ -69,7 +69,7 @@ public class SVDDragunovFactory {
         ))
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 저격 소총",
-        "피해: 14", 
+        "피해: 25",
         "사용 탄종: 7.62x54mmR",
         "조정간: SEMI, AUTO",
         "발사 속도: 60/100",
@@ -810,7 +810,7 @@ public class SVDDragunovFactory {
                     }, 300, 0))
              
             .build())
-        .withSpawnEntityDamage(14f)
+        .withSpawnEntityDamage(25f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

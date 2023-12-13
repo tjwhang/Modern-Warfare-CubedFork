@@ -49,8 +49,8 @@ public class turretgunupgradedFactory implements GunFactory {
         .withShellCasingVerticalOffset(-0.03f)
 //        .withCreativeTab(MWC.AssaultRiflesTab)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Carbine", 
-        "피해: 6", 
+        "분류: 카빈", 
+        "피해: 18",
         "사용 탄종: 5.56x45mm NATO",
         "조정간: SEMI, AUTO",
         "발사 속도: 65/100",
@@ -317,7 +317,7 @@ public class turretgunupgradedFactory implements GunFactory {
                     }, 250, 0))
                     
             .build())
-        .withSpawnEntityDamage(30f)
+        .withSpawnEntityDamage(18f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
          

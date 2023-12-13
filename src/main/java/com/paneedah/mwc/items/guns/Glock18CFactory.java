@@ -73,7 +73,7 @@ public class Glock18CFactory implements GunFactory {
         ))
         .withInformationProvider(stack -> Arrays.asList(
         "분류: Machine 권총", 
-        "피해: 5", 
+        "피해: 9.5",
         "사용 탄종: 9x19mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 95/100",
@@ -553,7 +553,7 @@ public class Glock18CFactory implements GunFactory {
                     }, 250, 0))
                           
             .build())
-        .withSpawnEntityDamage(5f)
+        .withSpawnEntityDamage(9.5f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          

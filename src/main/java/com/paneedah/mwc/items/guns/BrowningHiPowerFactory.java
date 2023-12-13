@@ -52,7 +52,7 @@ public class BrowningHiPowerFactory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: Single Action 반자동 권총",
-        "피해: 5",
+        "피해: 11",
         "사용 탄종: 9x19mm",
         "조정간: SEMI",
         "발사 속도: 65/100",
@@ -1398,7 +1398,7 @@ public class BrowningHiPowerFactory implements GunFactory {
                     )
                           
             .build())
-        .withSpawnEntityDamage(5f)
+        .withSpawnEntityDamage(11f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          

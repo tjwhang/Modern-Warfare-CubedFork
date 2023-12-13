@@ -72,7 +72,7 @@ public class MalyukFactory {
 		))
         .withInformationProvider(stack -> Arrays.asList(
         "분류: Bullpup Assault 소총",
-        "피해: 6.6", 
+        "피해: 14",
         "사용 탄종: 7.62x39mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 60/100",
@@ -790,7 +790,7 @@ public class MalyukFactory {
                     }, 300, 0))
              
             .build())
-        .withSpawnEntityDamage(6.6f)
+        .withSpawnEntityDamage(14f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

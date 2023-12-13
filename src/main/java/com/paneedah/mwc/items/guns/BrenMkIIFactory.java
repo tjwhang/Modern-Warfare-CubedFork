@@ -44,7 +44,7 @@ public class BrenMkIIFactory {
         .withFlashOffsetY(() -> 0.1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Light Machine Gun",
+        "분류: 경기관총",
         "피해: 10", 
         "사용 탄종: 7.62x51mm",
         "조정간: SEMI, AUTO",
@@ -1004,7 +1004,7 @@ public class BrenMkIIFactory {
                     )
              
             .build())
-        .withSpawnEntityDamage(10f)
+        .withSpawnEntityDamage(14f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

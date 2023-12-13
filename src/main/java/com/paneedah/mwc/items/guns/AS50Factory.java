@@ -46,7 +46,7 @@ public class AS50Factory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 대물 저격 소총",
-        "피해: 25", 
+        "피해: 55",
         "사용 탄종: .50 BMG",
         "조정간: SEMI",
         "발사 속도: 10/100",
@@ -2073,8 +2073,8 @@ public class AS50Factory implements GunFactory {
             
                     
             .build())
-        .withSpawnEntityDamage(25f)
-        .withSpawnEntityGravityVelocity(0f)
+        .withSpawnEntityDamage(55f)
+        .withSpawnEntityGravityVelocity(0.0118f)
         
          
         .build(MWC.modContext);

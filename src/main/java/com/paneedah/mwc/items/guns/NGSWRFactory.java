@@ -71,7 +71,7 @@ public class NGSWRFactory implements GunFactory {
 		))
 		.withInformationProvider(stack -> Arrays.asList(
 		"분류: 돌격 소총", 
-		"피해: 7", 
+		"피해: 16",
 		"사용 탄종: .277 FURY",
 		"조정간: SEMI, AUTO",
 		"발사 속도: 75/100",
@@ -831,7 +831,7 @@ public class NGSWRFactory implements GunFactory {
                     }, 250, 0))
 					
 			.build())
-		.withSpawnEntityDamage(7f)
+		.withSpawnEntityDamage(16f)
 		.withSpawnEntityGravityVelocity(0.0118f)
 				
 		 

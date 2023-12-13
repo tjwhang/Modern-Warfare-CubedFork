@@ -46,8 +46,8 @@ public class DP28Factory {
         .withShellCasingEjectEnabled(false)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Light Machine Gun",
-        "피해: 14",
+        "분류: 경기관총",
+        "피해: 18",
         "사용 탄종: 7.62x54mmR",
         "조정간: SEMI, AUTO",
         "발사 속도: 50/100",
@@ -950,7 +950,7 @@ public class DP28Factory {
                     )
              
             .build())
-        .withSpawnEntityDamage(14f)
+        .withSpawnEntityDamage(18f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

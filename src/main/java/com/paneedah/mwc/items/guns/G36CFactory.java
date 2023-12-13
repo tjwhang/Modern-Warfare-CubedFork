@@ -73,7 +73,7 @@ public class G36CFactory implements GunFactory {
                 ))
                 .withInformationProvider(stack -> Arrays.asList(
                         "분류: 돌격 소총",
-                        "피해: 6",
+                        "피해: 13",
                         "사용 탄종: 5.56x45mm NATO",
                         "조정간: SEMI, AUTO",
                         "발사 속도: 75/100",
@@ -693,7 +693,7 @@ public class G36CFactory implements GunFactory {
                                 }, 250, 0))
 
                         .build())
-                .withSpawnEntityDamage(6f)
+                .withSpawnEntityDamage(13f)
                 .withSpawnEntityGravityVelocity(0.0118f)
 
 

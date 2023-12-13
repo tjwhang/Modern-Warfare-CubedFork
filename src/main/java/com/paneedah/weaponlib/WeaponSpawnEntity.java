@@ -1,18 +1,24 @@
 package com.paneedah.weaponlib;
 
 import com.paneedah.mwc.utils.MWCUtil;
+import com.paneedah.mwc.utils.PlayerCreatureWrapper;
 import com.paneedah.weaponlib.config.ModernConfigManager;
 import com.paneedah.weaponlib.jim.util.HitUtil;
 import com.paneedah.mwc.network.messages.BloodClientMessage;
+import ibxm.Player;
 import io.netty.buffer.ByteBuf;
 import io.redstudioragnarok.redcore.vectors.Vector3F;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.DamageSource;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.SoundEvent;
+import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.RayTraceResult.Type;
@@ -52,6 +58,25 @@ public class WeaponSpawnEntity extends EntityProjectile {
     private float smokeParticleAgeCoefficient;
     private float explosionParticleScaleCoefficient;
     private float smokeParticleScaleCoefficient;
+
+    private SoundEvent flybyEvent;
+    private String flybyEventString = "bullet_flyby_subsonic";
+    private float flybyRadius = 8;
+
+    public void setFlyby(SoundEvent flyby) {
+        this.flybyEvent = flyby;
+    }
+    public SoundEvent getFlybyEvent() {
+        return flybyEvent;
+    }
+
+    public float getFlybyRadius() {
+        return flybyRadius;
+    }
+
+    public void setFlybyRadius(float flybyRadius) {
+        this.flybyRadius = flybyRadius;
+    }
 
     private Weapon weapon;
 
@@ -231,4 +256,16 @@ public class WeaponSpawnEntity extends EntityProjectile {
             return new TextComponentTranslation("death.attack.gun", entityLivingBaseIn.getDisplayName(), this.shooter.getDisplayName(), this.gunName);
         }
     }
+    @Override
+    public void onUpdate() {
+        super.onUpdate();
+        int x = this.getPosition().getX();
+        int y = this.getPosition().getX();
+        int z = this.getPosition().getX();
+
+        if (world.getEntitiesWithinAABB(EntityPlayer.class, new AxisAlignedBB(x-flybyRadius,y-flybyRadius,z-flybyRadius,x+flybyRadius,y+flybyRadius,z+flybyRadius)).size()!=0) {
+            this.playSound(getFlybyEvent(), 1, 1);
+        }
+    }
+
 }

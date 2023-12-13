@@ -70,8 +70,8 @@ public class UziFactory implements GunFactory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Submachine Gun", 
-        "피해: 5", 
+        "분류: 기관단총", 
+        "피해: 9",
         "사용 탄종: 9x19mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 70/100",
@@ -503,7 +503,7 @@ public class UziFactory implements GunFactory {
                    }, 250, 0))
                          
            .build())
-        .withSpawnEntityDamage(5f)
+        .withSpawnEntityDamage(9f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          

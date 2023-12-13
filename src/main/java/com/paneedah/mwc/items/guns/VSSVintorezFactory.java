@@ -71,8 +71,8 @@ public class VSSVintorezFactory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Special 저격 소총",
-        "피해: 7", 
+        "분류: 특수목적 저격 소총",
+        "피해: 23",
         "사용 탄종: 9x39mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 70/100",
@@ -843,7 +843,7 @@ public class VSSVintorezFactory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(13f)
+        .withSpawnEntityDamage(23f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

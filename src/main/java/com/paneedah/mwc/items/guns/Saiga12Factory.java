@@ -40,7 +40,7 @@ public class Saiga12Factory {
         .withCrosshairRunning("Running")
         .withCrosshairZoomed("Sight")
         .withInaccuracy(10)
-        .withPellets(10)
+        .withPellets(8)
         .withFlashIntensity(0.4f)
         .withFlashScale(() -> 1f)
         .withFlashOffsetX(() -> 0.05f)
@@ -57,10 +57,10 @@ public class Saiga12Factory {
          
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Carbine/Shotgun",
-        "피해 per Pellet: 6",
-        "Pellets per Shot: 10", 
-        "사용 탄종: 12 Gauge 산탄총 Shell",
+        "분류: 카빈/Shotgun",
+        "펠렛 당 피해: 6",
+        "산탄 당 펠렛: 8",
+        "사용 탄종: 12 Gauge 산탄",
         "조정간: SEMI",
         "발사 속도: 40/100",
         "급탄:",

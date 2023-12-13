@@ -49,7 +49,7 @@ public class DSR1Factory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 저격 소총",
-        "피해: 14", 
+        "피해: 30",
         "사용 탄종: 7.62x51mm",
         "조정간: BOLT ACTION",
         "발사 속도: 16/100",
@@ -2412,8 +2412,8 @@ public class DSR1Factory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(14f)
-        .withSpawnEntityGravityVelocity(0f)
+        .withSpawnEntityDamage(30f)
+        .withSpawnEntityGravityVelocity(0.0118f)
         
          
         .build(MWC.modContext);

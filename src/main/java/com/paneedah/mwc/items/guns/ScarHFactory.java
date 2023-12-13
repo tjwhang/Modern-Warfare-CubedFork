@@ -70,8 +70,8 @@ public class ScarHFactory implements GunFactory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Battle 소총", 
-        "피해: 8", 
+        "분류: 전투 소총", 
+        "피해: 16",
         "사용 탄종: 7.62x51mm NATO",
         "조정간: SEMI, AUTO",
         "발사 속도: 55/100",
@@ -827,7 +827,7 @@ public class ScarHFactory implements GunFactory {
                    }, 250, 0))
                    
            .build())
-        .withSpawnEntityDamage(8f)
+        .withSpawnEntityDamage(16f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
          

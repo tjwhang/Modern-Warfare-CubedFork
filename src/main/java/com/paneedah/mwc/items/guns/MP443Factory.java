@@ -71,8 +71,8 @@ public class MP443Factory implements GunFactory {
         		1.0
         ))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Military Service 권총", 
-        "피해: 5", 
+        "분류: 군용 제식 권총",
+        "피해: 11",
         "사용 탄종: 9x19mm",
         "조정간: SEMI",
         "발사 속도: 50/100",
@@ -460,7 +460,7 @@ public class MP443Factory implements GunFactory {
                     }, 250, 0))
                           
             .build())
-        .withSpawnEntityDamage(5f)
+        .withSpawnEntityDamage(11f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          

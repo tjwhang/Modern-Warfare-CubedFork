@@ -70,7 +70,7 @@ public class FamasF1Factory {
 		))
         .withInformationProvider(stack -> Arrays.asList(
         "분류: Bullpup Assault 소총",
-        "피해: 6", 
+        "피해: 13",
         "사용 탄종: 5.56x45mm NATO",
         "조정간: SEMI, BURST",
         "발사 속도: 60/100",
@@ -771,7 +771,7 @@ public class FamasF1Factory {
                     }, 300, 0))
              
             .build())
-        .withSpawnEntityDamage(6f)
+        .withSpawnEntityDamage(13f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

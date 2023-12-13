@@ -43,7 +43,7 @@ public class M1CarbineFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 반자동 소총",
-        "피해: 6", 
+        "피해: 13",
         "사용 탄종: .30 Carbine",
         "조정간: SEMI",
         "발사 속도: 55/100",
@@ -1340,7 +1340,7 @@ public class M1CarbineFactory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(6f)
+        .withSpawnEntityDamage(13f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

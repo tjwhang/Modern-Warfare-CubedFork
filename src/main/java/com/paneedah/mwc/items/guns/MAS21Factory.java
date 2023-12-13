@@ -45,8 +45,8 @@ public class MAS21Factory implements GunFactory {
         .withInaccuracy(3)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Experimental Handgun", 
-        "피해: 5.5", 
+        "분류: 실험용 권총",
+        "피해: 12",
         "사용 탄종: 9x19mm",
         "조정간: SEMI",
         "발사 속도: 50/100",
@@ -2484,7 +2484,7 @@ public class MAS21Factory implements GunFactory {
                     )
                           
             .build())
-        .withSpawnEntityDamage(5.5f)
+        .withSpawnEntityDamage(12f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          

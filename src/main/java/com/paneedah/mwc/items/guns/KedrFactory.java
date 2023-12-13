@@ -47,8 +47,8 @@ public class KedrFactory {
         .withInaccuracy(2f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Submachine Gun",
-        "피해: 5", 
+        "분류: 기관단총",
+        "피해: 10",
         "사용 탄종: 9x19mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 70/100",
@@ -1270,7 +1270,7 @@ public class KedrFactory {
                     )
              
             .build())
-        .withSpawnEntityDamage(5f)
+        .withSpawnEntityDamage(10f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

@@ -46,8 +46,8 @@ public class StonerA1Factory {
         .withFlashOffsetY(() -> 0.15f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Light Machine Gun",
-        "피해: 6", 
+        "분류: 경기관총",
+        "피해: 13",
         "사용 탄종: 5.56x45mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 75/100",
@@ -2695,7 +2695,7 @@ public class StonerA1Factory {
                     )
              
             .build())
-        .withSpawnEntityDamage(6f)
+        .withSpawnEntityDamage(13f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

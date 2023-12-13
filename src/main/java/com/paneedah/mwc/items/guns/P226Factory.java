@@ -74,7 +74,7 @@ public class P226Factory implements GunFactory {
         ))
         .withInformationProvider(stack -> Arrays.asList(
         "분류: Double-Single Action 권총", 
-        "피해: 5", 
+        "피해: 10",
         "사용 탄종: 9x19mm",
         "조정간: SEMI",
         "발사 속도: 50/100",
@@ -383,7 +383,7 @@ public class P226Factory implements GunFactory {
                  })
                           
             .build())
-        .withSpawnEntityDamage(5f)
+        .withSpawnEntityDamage(10f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          

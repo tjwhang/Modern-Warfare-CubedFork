@@ -50,7 +50,7 @@ public class SW500MagnumFactory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
                 "분류: Revolver",
-                "피해: 7",
+                "피해: 15",
                 "사용 탄종: .500 Magnum Bullet", 
                 "조정간: Semi",
                 "발사 속도: 20/100"))
@@ -1653,7 +1653,7 @@ public class SW500MagnumFactory implements GunFactory {
                     )
             
             .build())
-        .withSpawnEntityDamage(7f)
+        .withSpawnEntityDamage(15f)
         .withSpawnEntityGravityVelocity(0.016f)
         
          

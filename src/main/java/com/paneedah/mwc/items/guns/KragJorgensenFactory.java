@@ -58,8 +58,8 @@ public class KragJorgensenFactory implements GunFactory {
         
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Repeating Bolt-action 소총",
-        "피해: 13.8",
+        "분류: 왕복 볼트 액션 소총",
+        "피해: 24",
         "사용 탄종: 8x58mmR", 
         "조정간: Bolt Action",
         "발사 속도: 16/100"))
@@ -1719,8 +1719,8 @@ public class KragJorgensenFactory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(13.8f)
-        .withSpawnEntityGravityVelocity(0f)
+        .withSpawnEntityDamage(24f)
+        .withSpawnEntityGravityVelocity(0.0118f)
         
          
         .build(MWC.modContext);

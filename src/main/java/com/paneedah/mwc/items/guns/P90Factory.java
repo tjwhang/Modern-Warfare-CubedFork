@@ -74,7 +74,7 @@ public class P90Factory {
 		))
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 개인 방어 화기",
-        "피해: 5.5", 
+        "피해: 11",
         "사용 탄종: 5.7x28mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 80/100",
@@ -793,7 +793,7 @@ public class P90Factory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(5.5f)
+        .withSpawnEntityDamage(11f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

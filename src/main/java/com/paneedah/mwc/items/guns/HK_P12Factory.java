@@ -70,8 +70,8 @@ public class HK_P12Factory implements GunFactory {
         		1.0
         ))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: 반자동 Service 권총",
-        "피해: 5.3",
+        "분류: 반자동 제식 권총",
+        "피해: 14",
         "사용 탄종: .45 ACP",
         "조정간: SEMI",
         "발사 속도: 30/100",
@@ -536,7 +536,7 @@ public class HK_P12Factory implements GunFactory {
                     }, 250, 0))
                           
             .build())
-        .withSpawnEntityDamage(5.3f)
+        .withSpawnEntityDamage(14f)
         .withSpawnEntityGravityVelocity(0.02f)
          
         .build(MWC.modContext);

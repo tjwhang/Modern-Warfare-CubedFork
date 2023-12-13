@@ -58,8 +58,8 @@ public class SpringfieldFactory implements GunFactory {
          
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Bolt-action 소총",
-        "피해: 15",
+        "분류: 볼트 액션 소총",
+        "피해: 25",
         "사용 탄종: .30-06 Springfield Bullet", 
         "조정간: Bolt Action",
         "발사 속도: 16/100"))
@@ -1850,8 +1850,8 @@ public class SpringfieldFactory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(15f)
-        .withSpawnEntityGravityVelocity(0f)
+        .withSpawnEntityDamage(25f)
+        .withSpawnEntityGravityVelocity(0.0118f)
         
          
         .build(MWC.modContext);

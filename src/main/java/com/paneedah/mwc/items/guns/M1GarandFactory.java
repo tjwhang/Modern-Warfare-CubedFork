@@ -47,7 +47,7 @@ public class M1GarandFactory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 반자동 소총", 
-        "피해: 15", 
+        "피해: 20",
         "사용 탄종: .30-06 Springfield Bullet",
         "조정간: SEMI",
         "발사 속도: 20/100"))
@@ -723,7 +723,7 @@ public class M1GarandFactory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(15f)
+        .withSpawnEntityDamage(20f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
          

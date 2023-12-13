@@ -47,8 +47,8 @@ public class M712Factory implements GunFactory {
         .withInaccuracy(1)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Machine 권총",
-        "피해: 5.4",
+        "분류: 기관 권총",
+        "피해: 9",
         "사용 탄종: 7.63x25mm Mauser",
         "조정간: AUTO",
         "발사 속도: 75/100",
@@ -1331,7 +1331,7 @@ public class M712Factory implements GunFactory {
                     )
                           
             .build())
-        .withSpawnEntityDamage(5.4f)
+        .withSpawnEntityDamage(9f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          

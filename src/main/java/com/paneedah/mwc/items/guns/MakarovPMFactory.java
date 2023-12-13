@@ -70,8 +70,8 @@ public class MakarovPMFactory implements GunFactory {
         		1.0
         ))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Soviet 반자동 권총",
-        "피해: 4.5",
+        "분류: 소련 반자동 권총",
+        "피해: 8",
         "사용 탄종: 9x18mm",
         "조정간: SEMI",
         "발사 속도: 30/100",
@@ -491,7 +491,7 @@ public class MakarovPMFactory implements GunFactory {
                    }, 250, 0))
                          
            .build())
-        .withSpawnEntityDamage(4.5f)
+        .withSpawnEntityDamage(8f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          

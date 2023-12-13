@@ -71,7 +71,7 @@ public class Beowulf50CalFactory implements GunFactory {
         ))
 		.withInformationProvider(stack -> Arrays.asList(
 		"분류: .50 Beowulf 소총", 
-		"피해: 7",
+		"피해: 14",
 		"사용 탄종: .50 Beowulf",
 		"조정간: SEMI",
 		"발사 속도: 30/100",
@@ -1044,7 +1044,7 @@ public class Beowulf50CalFactory implements GunFactory {
                   }, 250, 0))
                   
           .build())
-		.withSpawnEntityDamage(7f)
+		.withSpawnEntityDamage(14f)
 		.withSpawnEntityGravityVelocity(0.0118f)
 				
 		 

@@ -52,8 +52,8 @@ public class Kar98KFactory implements GunFactory {
         .withShellCasingEjectEnabled(false)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Bolt-action 소총",
-        "피해: 13.5",
+        "분류: 볼트 액션 소총",
+        "피해: 25",
         "사용 탄종: 7.92x57mm", 
         "조정간: Bolt Action",
         "발사 속도: 16/100"))
@@ -2259,8 +2259,8 @@ public class Kar98KFactory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(13.5f)
-        .withSpawnEntityGravityVelocity(0f)
+        .withSpawnEntityDamage(25f)
+        .withSpawnEntityGravityVelocity(0.0118f)
         
          
         .build(MWC.modContext);

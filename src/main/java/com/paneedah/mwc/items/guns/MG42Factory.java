@@ -46,8 +46,8 @@ public class MG42Factory {
         .withInaccuracy(1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: General-Purpose Machine Gun",
-        "피해: 13.5", 
+        "분류: 다목적 기관총",
+        "피해: 18",
         "사용 탄종: 7.92x57mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 95/100",
@@ -1705,7 +1705,7 @@ public class MG42Factory {
                     )
              
             .build())
-        .withSpawnEntityDamage(13.5f)
+        .withSpawnEntityDamage(18f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

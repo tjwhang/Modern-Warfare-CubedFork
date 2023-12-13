@@ -71,7 +71,7 @@ public class AR10SuperSASSFactory implements GunFactory {
         ))
 		.withInformationProvider(stack -> Arrays.asList(
 		"분류: 반자동 저격 체계", 
-		"피해: 10", 
+		"피해: 16",
 		"사용 탄종: 7.62x51mm",
 		"조정간: SEMI",
 		"발사 속도: 80/100",
@@ -1041,7 +1041,7 @@ public class AR10SuperSASSFactory implements GunFactory {
                    }, 250, 0))
                    
            .build())
-		.withSpawnEntityDamage(10f)
+		.withSpawnEntityDamage(16f)
 		.withSpawnEntityGravityVelocity(0.0118f)
 				
 		 

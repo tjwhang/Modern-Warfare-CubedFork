@@ -42,7 +42,7 @@ public class MP43EFactory implements GunFactory {
         .withShellCasingEjectEnabled(false)
         .withCrosshairZoomed("Sight")
         .withInaccuracy(10)
-        .withPellets(10)
+        .withPellets(8)
         .withFlashIntensity(0.5f)
         .withFlashScale(() -> 0.6f)
         .withFlashOffsetX(() -> 0.09f)
@@ -50,9 +50,9 @@ public class MP43EFactory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 산탄총",
-        "피해 per Pellet: 6",
-        "Pellets per Shot: 10", 
-        "사용 탄종: 12 Gauge 산탄총 Shell",
+        "펠렛 당 피해: 6",
+        "산탄 당 펠렛: 8",
+        "사용 탄종: 12 Gauge 산탄",
         "조정간: SEMI ACTION",
         "발사 속도: 30/100"))
         

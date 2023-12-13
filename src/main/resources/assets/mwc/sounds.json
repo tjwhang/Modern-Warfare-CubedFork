@@ -818,6 +818,36 @@
       }
     ]
   },
+  "bullet_fly_subsonic": {
+    "category": "master",
+    "sounds": [
+        "mwc:bullet_subsonic1",
+        "mwc:bullet_subsonic2",
+        "mwc:bullet_subsonic3",
+        "mwc:bullet_subsonic4",
+        "mwc:bullet_subsonic5"
+    ]
+  },
+  "bullet_fly_supersonic_slow": {
+    "category": "master",
+    "sounds": [
+      "mwc:bullet_supersonic1",
+      "mwc:bullet_supersonic2",
+      "mwc:bullet_supersonic3",
+      "mwc:bullet_supersonic4",
+      "mwc:bullet_supersonic5"
+    ]
+  },
+  "bullet_fly_supersonic_fast": {
+    "category": "master",
+    "sounds": [
+      "mwc:bullet_supersonic6",
+      "mwc:bullet_supersonic7",
+      "mwc:bullet_supersonic8",
+      "mwc:bullet_supersonic9",
+      "mwc:bullet_supersonic10"
+    ]
+  },
   "mg42": {
     "category": "master",
     "sounds": [

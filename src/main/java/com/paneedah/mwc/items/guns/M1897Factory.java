@@ -48,7 +48,7 @@ public class M1897Factory implements GunFactory {
 		.withShellCasingEjectEnabled(false)
 		.withCrosshairZoomed("Sight")
 		.withInaccuracy(18)
-		.withPellets(10)
+		.withPellets(8)
 		.withFlashIntensity(0.4f)
 		.withFlashScale(() -> 0.8f)
 		.withFlashOffsetX(() -> 0.08f)
@@ -63,9 +63,9 @@ public class M1897Factory implements GunFactory {
 	        .withCreativeTab(MWC.WEAPONS_TAB)
 	        .withInformationProvider(stack -> Arrays.asList(
 	        "분류: 산탄총",
-	        "피해 per Pellet: 6",
-	        "Pellets per Shot: 10", 
-	        "사용 탄종: 12 Gauge 산탄총 Shell",
+	        "펠렛 당 피해: 6",
+	        "산탄 당 펠렛: 8",
+	        "사용 탄종: 12 Gauge 산탄",
 	        "조정간: PUMP ACTION",
 	        "발사 속도: 50/100"))
 	        .withCompatibleAttachment(AuxiliaryAttachments.Extra, true, (model) -> {

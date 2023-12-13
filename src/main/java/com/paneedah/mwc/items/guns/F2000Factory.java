@@ -72,7 +72,7 @@ public class F2000Factory {
 		))
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 돌격 소총",
-        "피해: 6", 
+        "피해: 13",
         "사용 탄종: 5.56x45mm",
         "조정간: SEMI, AUTO",
         "발사 속도: 85/100",
@@ -818,7 +818,7 @@ public class F2000Factory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(6f)
+        .withSpawnEntityDamage(13f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

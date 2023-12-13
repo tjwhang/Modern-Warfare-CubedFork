@@ -47,7 +47,7 @@ public class GL06Factory implements GunFactory {
                 2f) // z
         
         .withCreativeTab(MWC.WEAPONS_TAB)
-        .withInformationProvider(stack -> Arrays.asList("분류: Grenade Launcher", "피해: 70", 
+        .withInformationProvider(stack -> Arrays.asList("분류: 유탄 발사기", "피해: 70", 
         "사용 탄종: 40mm Grenade", "조정간: Semi"))
         .withCompatibleAttachment(Bullets.Grenade40mm, (model) -> {})
         

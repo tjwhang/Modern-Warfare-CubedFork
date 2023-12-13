@@ -434,7 +434,7 @@ public class G11Factory {
 		             })
              
             .build())
-        .withSpawnEntityDamage(5f)
+        .withSpawnEntityDamage(11f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

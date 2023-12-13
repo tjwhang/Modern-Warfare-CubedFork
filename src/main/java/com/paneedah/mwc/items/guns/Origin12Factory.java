@@ -50,7 +50,7 @@ public class Origin12Factory {
         .withShellCasingModel(new com.paneedah.mwc.models.Shotgun12Gauge())
         .withShellCasingModelTexture("shotgun12gauge")
         .withInaccuracy(12f)
-        .withPellets(10)
+        .withPellets(8)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .useNewSystem()
         .withRecoilParam(new RecoilParam(
@@ -72,13 +72,12 @@ public class Origin12Factory {
         		1.0
         ))
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: 반자동 Tactical 산탄총",
-        "피해 per Pellet: 6",
-        "Pellets per Shot: 10", 
+        "분류: 반자동 전술 산탄총",
+        "펠렛 당 피해: 6",
+        "산탄 당 펠렛: 8",
         "사용 탄종: 12 Gauge",
         "조정간: SEMI",
         "발사 속도: 30/100",
-        "Inaccuracy Rating: Moderately High",
         "급탄:",
         "5rnd 12 Gauge Origin Magazine",
         "20rnd 12 Gauge Drum Magazine"))

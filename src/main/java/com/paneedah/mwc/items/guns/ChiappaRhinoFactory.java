@@ -50,7 +50,7 @@ public class ChiappaRhinoFactory implements GunFactory {
         
         .withInformationProvider(stack -> Arrays.asList(
                 "분류: Revolver",
-                "피해: 5.4",
+                "피해: 14",
                 "사용 탄종: .357 Bullet", 
                 "조정간: Semi",
                 "발사 속도: 20/100"))
@@ -1856,7 +1856,7 @@ public class ChiappaRhinoFactory implements GunFactory {
                     )
             
             .build())
-        .withSpawnEntityDamage(5.4f)
+        .withSpawnEntityDamage(14f)
         .withSpawnEntityGravityVelocity(0.016f)
         
          

@@ -46,8 +46,8 @@ public class M1928ThompsonFactory {
         .withInaccuracy(2f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Sub Machine Gun",
-        "피해: 5.3", 
+        "분류: 기관단총",
+        "피해: 11",
         "사용 탄종: .45 ACP",
         "조정간: SEMI, AUTO",
         "발사 속도: 75/100",
@@ -1297,7 +1297,7 @@ public class M1928ThompsonFactory {
                     )
              
             .build())
-        .withSpawnEntityDamage(5.3f)
+        .withSpawnEntityDamage(11f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

@@ -46,8 +46,8 @@ public class M1941JohnsonFactory {
         .withShellCasingVerticalOffset(-0.1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
-        "분류: Light Machine Gun",
-        "피해: 15", 
+        "분류: 경기관총",
+        "피해: 19",
         "사용 탄종: .30-06 Springfield",
         "조정간: SEMI, AUTO",
         "발사 속도: 50/100",
@@ -1050,7 +1050,7 @@ public class M1941JohnsonFactory {
                     )
              
             .build())
-        .withSpawnEntityDamage(15f)
+        .withSpawnEntityDamage(19f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

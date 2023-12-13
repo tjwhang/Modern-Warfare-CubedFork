@@ -45,7 +45,7 @@ public class G43GewehrFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "분류: 반자동 소총",
-        "피해: 13.5", 
+        "피해: 19",
         "사용 탄종: 7.92x57mm",
         "조정간: SEMI",
         "발사 속도: 25/100",
@@ -973,7 +973,7 @@ public class G43GewehrFactory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(13.5f)
+        .withSpawnEntityDamage(19f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);
